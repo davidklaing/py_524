@@ -7,7 +7,7 @@ Simple python package/distribution that uses [pytest](http://doc.pytest.org/en/l
 
 ### To install package:
 ```
-pip install git+https://github.com/ttimbers/py_524.git
+pip install git+https://github.com/laingdk/py_524.git
 ```
 
 ### Example of usage in Python:
