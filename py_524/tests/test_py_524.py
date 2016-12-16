@@ -16,17 +16,17 @@ class Test_standard_deviation:
         assert utils.standard_deviation([100,100,100]) == 0
 
     def test_too_small(self):
-        with pytest.raises(ZeroDivisionError)
+        with pytest.raises(ZeroDivisionError):
             utils.standard_deviation([0])
 
     def test_is_list(self):
-        with pytest.raises(TypeError)
+        with pytest.raises(TypeError):
             utils.standard_deviation(0)
 
     def test_null(self):
-        with pytest.raises(TypeError)
+        with pytest.raises(TypeError):
             utils.standard_deviation()
 
     def test_string_convert(self):
-        with pytest.raises(TypeError)
+        with pytest.raises(TypeError):
             utils.standard_deviation(["0", "1"])
