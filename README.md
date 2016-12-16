@@ -2,6 +2,7 @@
 created by David Laing
 2016-12-15
 
+[![Build Status](https://travis-ci.org/laingdk/py_524.svg?branch=master)](https://travis-ci.org/laingdk/py_524)
 
 Simple python package/distribution that uses [pytest](http://doc.pytest.org/en/latest/contents.html)
 

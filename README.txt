@@ -21,3 +21,5 @@ standard_deviation([1,1,1])
 1. clone repo
 2. install pytest (`pip install -U pytest`)
 3. navigate to root directory of `py_524` (this is the repo you just cloned) and run `pytest`
+
+testing
