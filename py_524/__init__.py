@@ -1,1 +1,1 @@
-from py_524 import standard_deviation
+from py_524 import utils
