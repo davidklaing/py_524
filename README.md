@@ -13,7 +13,7 @@ pip install git+https://github.com/laingdk/py_524.git
 
 ### Example of usage in Python:
 ```
-from py_524.py_524 import standard_deviation
+from py_524.utils import standard_deviation
 
 standard_deviation([1,1,1])
 ```
