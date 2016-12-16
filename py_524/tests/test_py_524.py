@@ -10,10 +10,10 @@ class Test_standard_deviation:
         assert utils.standard_deviation([0,1,2]) == 1
 
     def test_neg_numbers(self):
-        assert utils.standard_deviation([-1, 0, 1]) = 1
+        assert utils.standard_deviation([-1, 0, 1]) == 1
 
     def test_same_element(self):
-        assert utils.standard_deviation([100,100,100]) = 0
+        assert utils.standard_deviation([100,100,100]) == 0
 
     def test_too_small(self):
         with pytest.raises(TypeError)
