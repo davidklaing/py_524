@@ -37,10 +37,10 @@ class Test_standard_error:
         assert utils.standard_error([0,1]) == 0.5
 
     def test_atleast_length_three(self):
-        assert utils.standard_error([0,1,2]) == 1
+        assert utils.standard_error([0,1,2]) == 0.5773502691896258
 
     def test_neg_numbers(self):
-        assert utils.standard_error([-1, 0, 1]) == 1
+        assert utils.standard_error([-1, 0, 1]) == 0.5773502691896258
 
     def test_same_element(self):
         assert utils.standard_error([100,100,100]) == 0
