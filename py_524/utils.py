@@ -9,8 +9,8 @@ def standard_deviation(x):
     n = len(x)
     mean = sum(x) / n
     ssq = sum((x_i - mean) ** 2 for x_i in x)
-    stdev = (ssq / (n - 1)) ** 0.5
-    return stdev
+    standard_dev = (ssq / (n - 1)) ** 0.5
+    return standard_dev
 
 
 def standard_error(x):
